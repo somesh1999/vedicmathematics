@@ -294,19 +294,37 @@ We organise camps at different places of and train students and teachers of diff
             <div class="row">
                 <div class="col-lg-12">
                     <div class="all-event-call  owl-carousel">
-                        <div class="single-event single-bg1">
+                        <div class="single-event single-bg1 participant1">
                             <h6>July 13, 2019</h6>
-                            <h3>Seminar</h3>
+                            <h5>Seminar</h5>
                             <h4><i class="far fa-clock"></i>6.30 PM - 8.30 PM</h4>
                             <p>Regional Institute of Education, Bhubaneswar</p>
                         </div>
-                        <div class="single-event single-bg2">
+                        <div class="single-event single-bg2 participant2">
                             <h6>July 14, 2019</h6>
-                            <h3>Vedic Mathematics</h3>
+                            <h5>Vedic Mathematics</h5>
                             <div style="height:30px"></div>
                             <h4><i class="far fa-clock"></i>10:30 AM - 12:00 PM</h4>
                             <p>Govardhan Math</p>
                         </div>
+                        <div class="single-event single-bg1">
+                            <h6>Oct 11 to 15, 2019</h6>
+                            <h5>Workshop</h5>
+                            <div style="height:30px"></div>
+                            <h4><i class="far fa-clock"></i>9.00 AM to 5.00 PM</h4>
+                            <p>Darbhanga, Bihar</p>
+                            <p><a class="text-primary more" style="font-size: 15px;" onclick="showparticipants(3)">More</a></p>
+                            <p class=" participant3" style="display: none;">Participants -School students , college students, Teacher training programme.</p>
+                        </div>
+                        <div class="single-event single-bg2">
+                            <h6>Sept 21, 2019</h6>
+                            <h5  style="width:64%;overflow-wrap: break-word; overflow:hidden;">Importance of  Vaidik maths in Engineering</h5>
+                            <h4><i class="far fa-clock"></i>9.00 AM to 5.00 PM</h4>
+                            <p>c v raman college of engineering, Odisha</p>
+                            <p><a class="text-primary more" style="font-size: 15px;" onclick="showparticipants(4)">More</a></p>
+                            <p class=" participant4" style="display: none;">Participants -BTech students 1st year to 3rd Year.</p>
+                        </div>
+                        
                         <!-- <div class="single-event single-bg1">
                             <h6>July 28, 2018</h6>
                             <h3>UI/UX Designer Meet-up 2018 In London</h3>
@@ -555,3 +573,19 @@ We organise camps at different places of and train students and teachers of diff
             });
             
             </script> -->
+
+            <script type="text/javascript">
+                var flag=0;
+                function showparticipants(id){
+                    $('.participant'+id).toggle(this);
+                    if(flag ==0)
+                    {
+                        $('.more').html("Less");
+                        flag++;
+                    }
+                    else{
+                        $('.more').html("More");
+                        flag--;
+                    }
+                }
+            </script>
