@@ -1,0 +1,22 @@
+[01-Sep-2019 12:21:48 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 22
+[01-Sep-2019 12:22:38 UTC] PHP Warning:  mysqli_query() expects parameter 2 to be string, object given in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 16
+[01-Sep-2019 12:22:38 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:23:26 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:24:38 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:24:54 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:25:20 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:25:20 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 42
+[01-Sep-2019 12:26:08 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:26:08 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 42
+[01-Sep-2019 12:27:28 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:27:28 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 42
+[01-Sep-2019 12:27:39 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:27:39 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 42
+[01-Sep-2019 12:27:57 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:27:57 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 42
+[01-Sep-2019 12:30:14 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:30:14 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 42
+[01-Sep-2019 12:31:33 UTC] PHP Notice:  Undefined variable: testid in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/postenterchapters.php on line 26
+[01-Sep-2019 12:41:20 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ',' or ';' in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/fetchchapters.php on line 19
+[01-Sep-2019 12:41:36 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ',' or ';' in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/fetchchapters.php on line 19
+[01-Sep-2019 12:41:43 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ',' or ';' in /home/m1gplyp2s43q/public_html/iiwm/vedicmathematics/admin/fetchchapters.php on line 19

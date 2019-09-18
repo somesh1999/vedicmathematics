@@ -1,0 +1,44 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+#RewriteRule ^  html/index.php
+RewriteRule ^guruji?$  html/about/guruji.php
+RewriteRule ^govardhan-math?$  html/about/govardhan-math.php
+RewriteRule ^vedaganita?$  html/about/vedaganita.php
+RewriteRule ^father-of-vaidik-ganita?$  html/about/fatherofmathematics.php
+RewriteRule ^postregister?$  html/authentication/postregister.php
+RewriteRule ^postlogin?$  html/authentication/postlogin.php
+RewriteRule ^postresetpassword?$  html/authentication/postresetpassword.php
+RewriteRule ^dashboard?$  html/dashboard/dashboard.php
+RewriteRule ^logout?$  html/authentication/logout.php
+RewriteRule ^register_course?$  html/dashboard/register_course.php
+RewriteRule ^registercourse?$  html/dashboard/postregistercourse.php
+RewriteRule ^registeredcourse?$  html/dashboard/registeredcourse.php
+RewriteRule ^add_profile?$  html/dashboard/profile/add.php
+RewriteRule ^postprofileupdate?$  html/dashboard/profile/postprofileupdate.php
+RewriteRule ^view_profile?$  html/dashboard/profile/view.php
+
+RewriteRule ^example_series?$  html/dashboard/example_series/example_series.php
+RewriteRule ^mock_test?$  html/dashboard/mocktest/mock_test.php
+RewriteRule ^test?$  html/dashboard/mocktest/test.php
+RewriteRule ^submittest?$  html/dashboard/mocktest/submittest.php
+RewriteRule ^result?$  html/dashboard/mocktest/result.php
+RewriteRule ^view-blog?$  html/blog/viewblog.php
+RewriteRule ^blog?$  html/blog/blog.php
+RewriteRule ^fetchsyllabus?$  html/dashboard/fetchsyllabus.php
+RewriteRule ^fetchsyllabus1?$  html/dashboard/fetchsyllabus1.php
+
+RewriteRule ^postcontact?$  html/contact/postcontact.php
+
+
+
+
+
+RewriteRule ^applyinternship?$  html/internship/applyinternship.php
+RewriteRule ^engineering_colleges?$  html/colleges/engineering/viewcolleges.php
+RewriteRule ^mba_colleges?$  html/colleges/mba/viewcolleges.php
+
+ErrorDocument 404 /think2exam/errorpages/404.html
+
